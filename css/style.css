@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  font: bold 20px verdana, sans-serif;
+  text-align: center;
+}
+h2 {
+  font: bold 14px verdana, sans-serif;
+}
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup{
+  display: block;
+}
+body {
+  text-align: center;
+  background: #46433F;
+}
+p {
+  text-align: justify;
+  margin: 20px 20px;
+}
+p.reloj {
+  text-align: center;
+  margin: 10px 10px;
+}
+a:link {
+  color:#C30017;
+  text-decoration:none;
+}
+a:hover{
+  color: #0000FF;
+  font: bold;
+}
+.agrupar {
+  width: 1000px;
+  margin: 25px auto;
+  text-align: left;
+}
+.cabecera {
+  background: #C30017;
+  border: 4px solid #1B151A;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  -moz-box-shadow: #1B151A 10px 10px 10px;
+  -webkit-box-shadow: #1B151A 10px 10px 10px;
+  box-shadow: #1B151A 10px 10px 10px;
+}
+.menu {
+  background: #1B151A;
+  border: 2px solid #C30017;
+  padding: 5px 15px;
+  margin: 20px;
+  text-align: center;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  /* -moz-box-shadow: #C30017 10px 10px 10px; */
+  /* -webkit-box-shadow: #C30017 10px 10px 10px; */
+  /* box-shadow: #C30017 10px 10px 10px; */
+}
+.menu li {
+  display: inline-block;
+  list-style: none;
+  padding: 8px 20px;
+  font: bold 14px verdana, sans-serif;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  border: 2px solid #C30017;
+  background: #C30017;
+  color: #FFFFFF;
+}
+.menu li.activo{
+  color: #000000;
+  background: #CCCCCC;
+}
+.menu li:hover{
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  -moz-box-shadow: #1B151A 10px 10px 10px;
+  -webkit-box-shadow: #1B151A 10px 10px 10px;
+  box-shadow: #1B151A 10px 10px 10px;
+  border: 2px solid #C30017;
+  color: #000000;
+  background: #CCCCCC;
+}
+.seccion {
+  float: left;
+  width: 680px;
+  margin: 10px;
+  background: #CCCCCC;
+  border: 2px solid #1B151A;
+  padding: 40px 40px;
+  text-align: left;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+}
+.seccion ul {
+  margin-left: 30px;
+}
+.columna {
+  float: left;
+  width: 180px;
+  margin: 10px 0px;
+  padding: 10px;
+  background: #CCCCCC;
+  border: 2px solid #1B151A;
+  text-align: center;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+}
+.pie {
+  clear: both;
+  text-align: center;
+  padding: 10px;
+  border-top: 4px solid #C30017;
+  color: #FFFFFF;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 300px 500px;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 10px;
+  margin: 20px auto;
+}
+.FC {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: center;
+  margin: 10px auto;
+}
+.FIUNAM {
+  grid-column: 1;
+  grid-row: 2;
+  text-align: center;
+  margin: 10px auto;
+}
+.FIUP {
+  grid-column: 1;
+  grid-row: 3;
+  text-align: center;
+  margin: 10px 10px;
+}
+.FCcursos {
+  grid-column: 2;
+  grid-row: 1;
+  margin: 20px 10px;
+}
+.FIUNAMcursos {
+  grid-column: 2;
+  grid-row: 2;
+  margin: 20px 10px;
+}
+.FIUPcursos {
+  grid-column: 2;
+  grid-row: 3;
+  margin: 20px 10px;
+}
